@@ -1,0 +1,8 @@
+{
+  "agentName": "GroupDPlayer",
+  "type": "MCTS",
+  "K": 1.41,
+  "rolloutLength": 10,
+  "maxTreeDepth": 50,
+  "epsilon": 1e-6
+}
