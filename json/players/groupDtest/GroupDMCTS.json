@@ -1,0 +1,31 @@
+{
+  "class": "players.groupD.GroupDMCTSPlayer",
+  "params": {
+    "agentName": "GroupDPlayer",
+    "K": 1.41,
+    "rolloutLength": 10,
+    "maxTreeDepth": 50,
+    "epsilon": 1e-6,
+
+
+    "useHeuristicRollout": true,
+    "useActionPruning": true,
+    "useInterimHeuristicValue": true,
+
+
+    "progressiveWidening": false,
+    "pwAlpha": 0.5,
+    "pwC": 1.5,
+
+
+    "timePerMoveMs": 1000,
+    "minIterations": 50,
+
+
+    "epsilonGreedy": 0.2,
+    "valueWasabiNigiriBonus": 3.0,
+    "valueSashimiProgress": [0.0, 1.0, 3.0],
+    "valueMakiLeadPerCard": 0.4,
+    "valuePuddingEndgame": 2.0
+  }
+}

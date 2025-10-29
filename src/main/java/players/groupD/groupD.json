@@ -1,8 +1,25 @@
 {
-  "agentName": "GroupDPlayer",
-  "type": "MCTS",
-  "K": 1.41,
-  "rolloutLength": 10,
-  "maxTreeDepth": 50,
-  "epsilon": 1e-6
+  "class": "players.groupD.GroupDMCTSPlayer",
+  "params": {
+    "agentName": "GroupDPlayer",
+    "type": "MCTS",
+
+
+    "K": 1.41,
+    "rolloutLength": 12,
+    "maxTreeDepth": 100,
+    "epsilon": 1e-6,
+
+
+    "epsilonGreedy": 0.2,
+    "useHeuristicRollout": true,
+    "useInterimHeuristicValue": true,
+
+
+    "timePerMoveMs": 1000,
+    "minIterations": 50,
+
+
+    "description": "Group D Sushi Go! MCTS agent with heuristic-guided rollouts and epsilon-greedy exploration"
+  }
 }
