@@ -2,14 +2,14 @@
   "game": "SushiGo",
   "nPlayers": 3,
   "mode": "roundrobin",
-  "matchups": 500,
-  "verbose": true,
+  "matchups": 100,
+  "verbose": false,
   "seed": 12345,
   "listener": "json/listeners/tournamentlistener.json",
-  "destDir": "outputdir_groupD_fast",
+  "destDir": "outputdir_groupD_1s",
   "playerDirectory": "json/players/groupDtest",
   "players": [
-    "GroupD.json",
+    "GroupD_1s.json",
     "basicmcts.json",
     "random.json"
   ]

@@ -1,0 +1,17 @@
+{
+  "class": "players.groupD.GroupDMCTSPlayer",
+  "params": {
+    "agentName": "GroupD_AB",
+    "type": "MCTS",
+    "K": 1.41,
+    "rolloutLength": 6,
+    "maxTreeDepth": 40,
+    "epsilon": 1e-6,
+    "epsilonGreedy": 0.0,
+    "useHeuristicRollout": true,
+    "useInterimHeuristicValue": true,
+    "timePerMoveMs": 100,
+    "minIterations": 10,
+    "description": "Ablation AB: heuristic rollout + interim value"
+  }
+}

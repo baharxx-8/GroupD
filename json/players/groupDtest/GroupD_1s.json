@@ -1,25 +1,17 @@
 {
   "class": "players.groupD.GroupDMCTSPlayer",
   "params": {
-    "agentName": "GroupDPlayer",
+    "agentName": "GroupDPlayer1s",
     "type": "MCTS",
-
-
     "K": 1.41,
-    "rolloutLength": 12,
+    "rolloutLength": 10,
     "maxTreeDepth": 100,
     "epsilon": 1e-6,
-
-
     "epsilonGreedy": 0.2,
     "useHeuristicRollout": true,
     "useInterimHeuristicValue": true,
-
-
     "timePerMoveMs": 1000,
     "minIterations": 50,
-
-
-    "description": "Group D Sushi Go! MCTS agent with heuristic-guided rollouts and epsilon-greedy exploration"
+    "description": "Group D Sushi Go! competition config (1s per move)"
   }
 }
